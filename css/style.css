@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(58, 58, 61);
+    color: rgb(232, 234, 237);
+    margin: 0px;
+}
+
+#wrapper {
+    clear: both;
+}
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.north {
+    height: 12.5%;
+}
+
+.west {
+    float: left;
+    height: 75%;
+    width: 25%;
+}
+.center {
+    float: left;
+    height: 75%;
+    width: 50%;
+    
+}
+.east{
+    float: left;
+    height: 75%;
+    width: 25%;
+}
+
+.south {
+    height: 12.5%;
+}
+
+.north-container {
+    height: 100%;
+    border-bottom: 1px solid rgb(232, 234, 237);
+}
+
+.south-container {
+    height: 100%;
+    border-top: 1px solid rgb(232, 234, 237);
+}
